@@ -20,4 +20,18 @@ public class JdbcConnection {
     }
 
 }
+
+
+
+
+
+
+ @AfterEach
+    public void finish(){
+        System.out.println("Should Execute after Each Test");
+    }
+
+    @AfterAll
+    public static void finishAll(){
+        System.out.println("Should execute at the End of the Test");
 © 2021 GitHub, Inc.
