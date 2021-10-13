@@ -264,3 +264,36 @@ which were ordered in the year 2014
 
 
 /* 62. Name of the top priced phone */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+      function gMaps() {
+        var mapElements = {
+          center: new google.maps.LatLng(12.2958, 76.6394),
+          zoom: 10,
+        };
+        var map = new google.maps.Map(
+          document.getElementById("maps"),
+          mapElements
+        );
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=gMap"></script>
