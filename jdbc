@@ -33,5 +33,31 @@ public class JdbcConnection {
 
     @AfterAll
     public static void finishAll(){
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    dependency><groupId>org.hibernate</groupId><artifactId>hibernate-core</artifactId><version>4.1.4.Final</version></dependency>
         System.out.println("Should execute at the End of the Test");
 © 2021 GitHub, Inc.
